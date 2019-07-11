@@ -1,0 +1,22 @@
+{
+  "name": "test_medsummit",
+  "version": "1.0.0",
+  "description": "test task from AffiliateControl",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fromhere1989"
+  },
+  "author": "Grishin Vladimir",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1",
+    "sass": "^1.22.3"
+  }
+}

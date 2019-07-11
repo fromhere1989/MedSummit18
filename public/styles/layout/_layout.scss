@@ -1,0 +1,87 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: $lite-gray;
+
+  @media screen and (min-width: $xsmall) and (max-height: 500px) {
+    height: 740px;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    height: auto;
+    flex-direction: column;
+  }
+
+}
+
+.sidebar {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $white;
+
+  @media screen and (max-width: $xsmall) {
+    width: 100%;
+  }
+
+}
+
+.main {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $white;
+
+  @media screen and (max-width: $xsmall) {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+.capture {
+  height:77%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../images/Background.jpg"), linear-gradient(90deg, ($gray)20%, $black);
+  background-position: left left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: lighten;
+
+  @media screen and (min-width: $xsmall) and (max-height: $horizontalLarge) {
+    height: 78%;
+  }
+
+  @media screen and (max-width: $xsmall) {
+    height: 600px;
+  }
+}
+
+.speakers {
+  height: 23%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-left: 1px solid $transparant-blue;
+
+  @media screen and (max-width: $xsmall) {
+    height: 730px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  @media screen and (min-width: $xsmall) and (max-height: $horizontalMedium) {
+    height: 27%;
+  }
+}

@@ -1,0 +1,73 @@
+.speakers__slider {
+  position: relative;
+  height: 100%;
+  width: 85%;
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+
+
+  @media screen and (max-width: $xsmall) {
+    height: 550px;
+    width: 95%;
+    padding-top: 20px;
+  }
+
+}
+
+.speakers__slider-title {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  font-size: 14px;
+  font-weight: 700;
+
+  @media screen and (max-width: $xsmall) {
+    top: 20px;
+    left: 0%;
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: $xsmall) and (max-height: 812px) {
+    top: 0.5%;
+  }
+}
+
+.arrow {
+  position: absolute;
+  top: 20%;
+  width: 4%;
+  padding: 5% 0px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  color: $white;
+  background-color: $gray;
+  z-index: 5;
+
+  @media screen and (max-width: $xsmall) {
+    top: 450px;
+    width: 90px;
+    height: 40px;
+    border-radius: 7px;
+    color: black;
+    background-color: $lite-gray;
+  }
+}
+
+.speakers__slider-rightArrow {
+  right: 0;
+}
+
+.speakers__slider-main {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  transition: 1s;
+  transform: translateX(0px);
+}

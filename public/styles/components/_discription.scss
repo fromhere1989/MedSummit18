@@ -1,0 +1,13 @@
+.discription {
+  padding: 20px 18px;
+  text-align: right;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 45px;
+  color: $transparant-white;
+
+  @media screen and (max-width: $xsmall) {
+    font-size: 32px;
+    padding-right: 30px;
+  }
+}

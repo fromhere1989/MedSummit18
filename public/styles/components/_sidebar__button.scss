@@ -1,0 +1,20 @@
+.sidebar__button {
+  width: 100%;
+  height: 10%;
+  color: $white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: $red;
+
+  @media screen and (max-width: $xsmall) {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+  }
+
+  @media screen and (max-width: $xsmall) and (max-height: $horizontalSmall) {
+    height: 40px;
+    font-size: 20px;
+  }
+}

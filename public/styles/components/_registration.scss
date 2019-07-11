@@ -1,0 +1,42 @@
+.registration {
+  text-align: center;
+  margin-bottom: 25px;
+
+  @media screen and (max-width: $xsmall) {
+    margin-bottom: 40px;
+  }
+}
+
+.registration__dates {
+  font-size: 24px;
+  font-weight: 100;
+  color: $transparant-white;
+
+  @media screen and (max-width: $xsmall) {
+    margin-bottom: 10px;
+  }
+}
+
+.registration__button {
+  padding: 5px 15px;
+  margin: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  color: $transparant-white;
+  background-color: rgb(0,139,255);
+
+  @media screen and (max-width: $xsmall) {
+    font-size: 22px;
+    padding: 5px 22px;
+  }
+}
+
+.registration__note {
+  font-size: 8px;
+  color: $transparant-white;
+}
+
+.registration__link {
+  font-size: 8px;
+  color: $transparant-white;
+}
