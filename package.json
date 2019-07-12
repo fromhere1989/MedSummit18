@@ -5,9 +5,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html",
-    "start": "parcel index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url ./",
+    "build": "parcel build --public-url . ./index.html",
+    "predeploy": "npm run build -s",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
