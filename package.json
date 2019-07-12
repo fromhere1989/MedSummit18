@@ -5,7 +5,10 @@
   "main": "index.html",
   "scripts": {
     "dev": "parcel ./index.html",
-    "build": "parcel build ./index.html"
+    "build": "parcel build ./index.html",
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /MedSummit18",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
