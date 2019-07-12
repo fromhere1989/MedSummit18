@@ -15,7 +15,7 @@ if (window.matchMedia("screen and (max-width: 1023px)").matches) {
 } else
 if (window.matchMedia("screen and (min-width: 1024px)").matches) {
   width = 110;
-  count = 6;
+  count = 8;
 };
 
 const slider = document.getElementsByClassName('speakers__slider')[0];

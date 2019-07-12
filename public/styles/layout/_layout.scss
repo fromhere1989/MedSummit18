@@ -52,7 +52,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("../images/Background.jpg"), linear-gradient(90deg, ($gray)20%, $black);
+  background-image: url("../images/Background-1980.jpg"), linear-gradient(90deg, ($gray)20%, $black);
   background-position: left left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,16 @@ html {
     height: 78%;
   }
 
+  @media screen and (max-width: $medium) {
+    background-image: url("../images/Background-1024.jpg"), linear-gradient(90deg, ($gray)20%, $black);
+  }
+
+  @media screen and (max-width: $small) {
+    background-image: url("../images/Background-960.jpg"), linear-gradient(90deg, ($gray)20%, $black);
+  }
+
   @media screen and (max-width: $xsmall) {
+    background-image: url("../images/Background-740.jpg"), linear-gradient(90deg, ($gray)20%, $black);
     height: 600px;
   }
 }
