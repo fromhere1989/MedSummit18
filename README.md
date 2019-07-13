@@ -8,3 +8,5 @@ git clone https://github.com/fromhere1989/MedSummit18.git
 cd MedSummit18
 npm i
 npm run dev
+
+сайт страницы: http://84.201.158.155/medsummit18
